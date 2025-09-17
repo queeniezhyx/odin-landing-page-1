@@ -1,0 +1,107 @@
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background: #1F2937;
+    padding-bottom: 60px;
+}
+
+.header, .top-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-links {
+    display: flex;
+    gap: 15px;
+}
+
+.rectangle-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    background: rgb(124, 124, 136);
+}
+
+.rectangle-2 {
+    width: 150px;
+    height: 150px;
+    border: 3px solid blue;
+    border-radius: 8px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.tc-left-heading {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-links, .tc-left-content, .rectangle-1 {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.section-2 {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card-text {
+    width: 150px;
+    text-align: center;
+}
+
+.tc-left {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+}
+
+.s2-heading {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    color: white;
+    width: 80px;
+    padding: 5px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+}
+
+ul, p {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
