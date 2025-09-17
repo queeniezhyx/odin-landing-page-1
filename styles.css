@@ -70,6 +70,7 @@ body {
 }
 
 .card-text {
+    margin-top: 10px;
     width: 150px;
     text-align: center;
 }
@@ -80,20 +81,74 @@ body {
     width: 380px;
 }
 
+.section-3 {
+    padding: 50px;
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle-3 {
+    margin: 80px;
+    padding: 50px 100px;
+    background: #3882F6;
+    display: flex;
+    gap: 80px;
+    border-radius: 4px;
+}
+
+.signup-button-2 {
+    background: #3882F6;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 0 20px;
+    color: white;
+}
+
+.quote {
+    width: 800px;
+}
+
+em {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
 .s2-heading {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
 }
 
+.s4-content {
+    color: #E5E7EB;
+}
+
 .signup-button {
     background-color: #3882F6;
-    color: white;
+    color: #E5E7EB;
     width: 80px;
     padding: 5px 15px;
     margin-top: 10px;
     border: none;
     border-radius: 6px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1F2937;
+    color: #E5E7EB;
+    padding: 30px;
 }
 
 ul, p {
